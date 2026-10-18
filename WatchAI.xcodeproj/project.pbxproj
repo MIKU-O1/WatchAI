@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+		17F6AF92CF3C093FC1849C55 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = "Sources/Core/AudioRecoveryPolicy.swift";
+			sourceTree = "<group>";
+		};
+		D2BCF36E57A04530D476BC88 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = "Sources/Core/DoubaoProtocol.swift";
+			sourceTree = "<group>";
+		};
+		8D3974F671FC080A589E0077 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = "Sources/Core/OggOpusStream.swift";
+			sourceTree = "<group>";
+		};
+		22F237E32DA3A7584F69402C = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = "Sources/Core/PCMBuffer.swift";
+			sourceTree = "<group>";
+		};
+		777D39A6CCC9D359C33106EA = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = "Sources/Core/Transcript.swift";
+			sourceTree = "<group>";
+		};
+		3CAE905008FDD8A39E00C506 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = "Sources/Core/WeakNetworkPolicies.swift";
+			sourceTree = "<group>";
+		};
+		A41E1748D0E9C072ACA3D23B = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = "Sources/Shared/NetworkWebSocket.swift";
+			sourceTree = "<group>";
+		};
+		88C7C5D6A1BAF29ED521FF26 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = "Sources/Shared/OpusCodec.swift";
+			sourceTree = "<group>";
+		};
+		5126C4217D1029782C30B76C = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = "Sources/Shared/RealtimeClient.swift";
+			sourceTree = "<group>";
+		};
+		31112B6BA1022E2E459C975E = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = "Sources/Shared/SettingsEditor.swift";
+			sourceTree = "<group>";
+		};
+		5E1D3B7A19F191918C98E7E7 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = "Sources/Shared/SettingsStore.swift";
+			sourceTree = "<group>";
+		};
+		91CFF999B6841E5BC66B3A5E = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = "Sources/Shared/SystemWebSocket.swift";
+			sourceTree = "<group>";
+		};
+		CBF0CACFECF352B13AEAB85F = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = "Sources/Shared/Theme.swift";
+			sourceTree = "<group>";
+		};
+		8E3B885749724E000C5AE796 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = "Sources/Watch/AudioController.swift";
+			sourceTree = "<group>";
+		};
+		DE447250A7B57C814B28E68F = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = "Sources/Watch/ConversationModel.swift";
+			sourceTree = "<group>";
+		};
+		F49316CE09531B09B6BCC357 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = "Sources/Watch/WatchAIApp.swift";
+			sourceTree = "<group>";
+		};
+		236771D64D6D3ED2ED7917E2 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = "Sources/Watch/WatchHomeView.swift";
+			sourceTree = "<group>";
+		};
+		D9572E9A394451B2DD198223 = {
+			isa = PBXFileReference;
+			lastKnownFileType = folder.assetcatalog;
+			path = "Sources/Watch/Assets.xcassets";
+			sourceTree = "<group>";
+		};
+		4656437358CE0C9753CED0D2 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.xml;
+			path = "Config/Watch-Info.plist";
+			sourceTree = "<group>";
+		};
+		AA4ACA445B3FBAF47CDE31AC = {
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = "README.md";
+			sourceTree = "<group>";
+		};
+		25F3712EB5C685C55053AF38 = {
+			isa = PBXBuildFile;
+			fileRef = 17F6AF92CF3C093FC1849C55;
+		};
+		558A1E87A0DE742146BF1D87 = {
+			isa = PBXBuildFile;
+			fileRef = D2BCF36E57A04530D476BC88;
+		};
+		EF88DFC1A5F2C1B2AD1A01F9 = {
+			isa = PBXBuildFile;
+			fileRef = 8D3974F671FC080A589E0077;
+		};
+		2E7C6EAB1E670A5BA39A626F = {
+			isa = PBXBuildFile;
+			fileRef = 22F237E32DA3A7584F69402C;
+		};
+		942720796DB3BC139C771231 = {
+			isa = PBXBuildFile;
+			fileRef = 777D39A6CCC9D359C33106EA;
+		};
+		A4BD22A4A59716284D88EB81 = {
+			isa = PBXBuildFile;
+			fileRef = 3CAE905008FDD8A39E00C506;
+		};
+		A12D453403D2EEF0B35B00F7 = {
+			isa = PBXBuildFile;
+			fileRef = A41E1748D0E9C072ACA3D23B;
+		};
+		D59087A2C46B6DB4BC1B5F1C = {
+			isa = PBXBuildFile;
+			fileRef = 88C7C5D6A1BAF29ED521FF26;
+		};
+		10A59926583310129ACA1A47 = {
+			isa = PBXBuildFile;
+			fileRef = 5126C4217D1029782C30B76C;
+		};
+		3272F6F057AA1F66D251FD6E = {
+			isa = PBXBuildFile;
+			fileRef = 31112B6BA1022E2E459C975E;
+		};
+		D1D879AB0E0BECB35B151113 = {
+			isa = PBXBuildFile;
+			fileRef = 5E1D3B7A19F191918C98E7E7;
+		};
+		AA604454C9F965B4ED76F7B8 = {
+			isa = PBXBuildFile;
+			fileRef = 91CFF999B6841E5BC66B3A5E;
+		};
+		151603819E74CC2334269DD7 = {
+			isa = PBXBuildFile;
+			fileRef = CBF0CACFECF352B13AEAB85F;
+		};
+		7B32C0A456872CAD1770DA8E = {
+			isa = PBXBuildFile;
+			fileRef = 8E3B885749724E000C5AE796;
+		};
+		9700ED383A10A4F08FC3B3CA = {
+			isa = PBXBuildFile;
+			fileRef = DE447250A7B57C814B28E68F;
+		};
+		67D291BB5ED5F1226BD8B641 = {
+			isa = PBXBuildFile;
+			fileRef = F49316CE09531B09B6BCC357;
+		};
+		7C2105286B48308C8DE8B3F1 = {
+			isa = PBXBuildFile;
+			fileRef = 236771D64D6D3ED2ED7917E2;
+		};
+		E852E8A40BBF93153DC69390 = {
+			isa = PBXBuildFile;
+			fileRef = D9572E9A394451B2DD198223;
+		};
+		AB1372E2408A47E40D62DEF5 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F3712EB5C685C55053AF38,
+				558A1E87A0DE742146BF1D87,
+				EF88DFC1A5F2C1B2AD1A01F9,
+				2E7C6EAB1E670A5BA39A626F,
+				942720796DB3BC139C771231,
+				A4BD22A4A59716284D88EB81,
+				A12D453403D2EEF0B35B00F7,
+				D59087A2C46B6DB4BC1B5F1C,
+				10A59926583310129ACA1A47,
+				3272F6F057AA1F66D251FD6E,
+				D1D879AB0E0BECB35B151113,
+				AA604454C9F965B4ED76F7B8,
+				151603819E74CC2334269DD7,
+				7B32C0A456872CAD1770DA8E,
+				9700ED383A10A4F08FC3B3CA,
+				67D291BB5ED5F1226BD8B641,
+				7C2105286B48308C8DE8B3F1,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512AAB797B1E98A8B753C6FA = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		980C7976D59A95186C0A801E = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E852E8A40BBF93153DC69390,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A52A8CBBC89B44AFB199BB8 = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.application;
+			includeInIndex = 0;
+			path = "WatchAI Watch App.app";
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8E1B46D34502CEC06931CA32 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				SWIFT_VERSION = 5.0;
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SDKROOT = watchos;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.watchai.doubao.watchkitapp";
+				INFOPLIST_FILE = "Config/Watch-Info.plist";
+				GENERATE_INFOPLIST_FILE = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "UP33T48226";
+				TARGETED_DEVICE_FAMILY = "4";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconScarf;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SKIP_INSTALL = NO;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		FD67B07184376D2AE5ECD001 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				SWIFT_VERSION = 5.0;
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SDKROOT = watchos;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.watchai.doubao.watchkitapp";
+				INFOPLIST_FILE = "Config/Watch-Info.plist";
+				GENERATE_INFOPLIST_FILE = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "UP33T48226";
+				TARGETED_DEVICE_FAMILY = "4";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconScarf;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SKIP_INSTALL = NO;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		36F46883ADAE81F8E794768C = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E1B46D34502CEC06931CA32,
+				FD67B07184376D2AE5ECD001,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14C2971E82FBD158C9030F7D = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36F46883ADAE81F8E794768C;
+			buildPhases = (
+				AB1372E2408A47E40D62DEF5,
+				512AAB797B1E98A8B753C6FA,
+				980C7976D59A95186C0A801E,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchAI Watch App";
+			productName = "WatchAI Watch App";
+			productReference = 6A52A8CBBC89B44AFB199BB8;
+			productType = "com.apple.product-type.application";
+		};
+		FBDC4F23F93125BBEEAE800C = {
+			isa = PBXGroup;
+			children = (
+				6A52A8CBBC89B44AFB199BB8,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B28B7AF69320201D1CF206EB = {
+			isa = PBXGroup;
+			children = (
+				17F6AF92CF3C093FC1849C55,
+				D2BCF36E57A04530D476BC88,
+				8D3974F671FC080A589E0077,
+				22F237E32DA3A7584F69402C,
+				777D39A6CCC9D359C33106EA,
+				3CAE905008FDD8A39E00C506,
+				A41E1748D0E9C072ACA3D23B,
+				88C7C5D6A1BAF29ED521FF26,
+				5126C4217D1029782C30B76C,
+				31112B6BA1022E2E459C975E,
+				5E1D3B7A19F191918C98E7E7,
+				91CFF999B6841E5BC66B3A5E,
+				CBF0CACFECF352B13AEAB85F,
+				8E3B885749724E000C5AE796,
+				DE447250A7B57C814B28E68F,
+				F49316CE09531B09B6BCC357,
+				236771D64D6D3ED2ED7917E2,
+				D9572E9A394451B2DD198223,
+				4656437358CE0C9753CED0D2,
+				AA4ACA445B3FBAF47CDE31AC,
+				FBDC4F23F93125BBEEAE800C,
+			);
+			sourceTree = "<group>";
+		};
+		877A6BA951A2EA0025A2ABE8 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				SWIFT_VERSION = 5.0;
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+			};
+			name = Debug;
+		};
+		959134B361DD7E21ADEA3164 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				SWIFT_VERSION = 5.0;
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		247BF104A9AD002C539DA531 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				877A6BA951A2EA0025A2ABE8,
+				959134B361DD7E21ADEA3164,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98F54143AB4E86B28C3AFEE0 = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2700;
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 247BF104A9AD002C539DA531;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = zh-Hans;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+				Base,
+			);
+			mainGroup = B28B7AF69320201D1CF206EB;
+			productRefGroup = FBDC4F23F93125BBEEAE800C;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14C2971E82FBD158C9030F7D,
+			);
+		};
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0;
+}

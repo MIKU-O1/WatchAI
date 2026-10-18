@@ -1,0 +1,14 @@
+{
+  "images": [
+    {
+      "filename": "AppIconAvatar.png",
+      "idiom": "watch-marketing",
+      "size": "1024x1024",
+      "scale": "1x"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1
+  }
+}

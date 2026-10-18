@@ -1,0 +1,18 @@
+PASS: Network WebSocket auth header, masked upload, ping/pong, fragmented UTF-8 text and close response
+PASS: server error survives a prior send failure; key is redacted; no automatic second session
+PASS: missing search key opens no socket; fallback preserves search configuration; both keys are redacted
+PASS: disconnected auto-reconnects, resumes session ID and ignores stale callbacks
+PASS: waiting auto-reconnects, resumes session ID and ignores stale callbacks
+PASS: serverTemporaryError auto-reconnects, resumes session ID and ignores stale callbacks
+PASS: short .waiting recovers on the same socket without a second session
+PASS: HTTP 403 stops automatic retry
+PASS: network restoration wakes backoff immediately without opening sockets while offline
+PASS: closing during backoff cancels timers and later network-restoration callbacks
+PASS: user close cancels deferred connection failure
+PASS: ready handshake, session.create, session.created and graceful close
+PASS: ready handshake, session.create, session.created and graceful close
+PASS: rejected WebSocket reports failure instead of waiting for a voice session
+PASS: ready handshake, session.create, session.created and graceful close
+PASS: 50 packets/sec with 800ms completion delay; all 80 packets preserve order
+PASS: a stalled send recovers after its age limit even when no more audio arrives
+PASS: stalled sends remain bounded and recover automatically without user input

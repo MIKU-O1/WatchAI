@@ -1,0 +1,14 @@
+# 腕上 AI 图标 · 白底红围巾
+
+使用内置 image_gen，以用户提供的头像截图作为人物与风格参考重新生成。白色背景、棕色偏分短发、大眼睛女孩、鲜红针织围巾和深色上衣。截图中的文字、账号名和社交按钮未进入设计。原图另存本目录，经 sips 等比例缩放为工程的 1024 × 1024 AppIconScarf 不透明 PNG；保留之前的图标版本。系统负责手表圆形裁切。
+
+## 最终生成提示词
+
++Use case: stylized-concept / identity-preserve.
+Asset type: finished square Apple Watch app icon, 1024 x 1024 master artwork.
+Input image 1: STYLE AND CHARACTER REFERENCE ONLY. It is a screenshot of a 3D cartoon female avatar wearing a red scarf. Use only the illustrated girl as the visual reference. Ignore every screenshot UI element, caption, username, border and social media button.
+Primary request: Recreate a very similar friendly stylized 3D cartoon girl portrait as a beautifully polished app icon. Closely match the reference's large round dark-brown eyes, clean softly arched brown eyebrows, small nose, tiny relaxed closed-mouth smile, rounded warm peach face with subtle cheek blush, chin-length chocolate-brown bob with a deep side part and smooth broad sculpted strands. One side of the bob gently frames the face, the other side reveals her ear. The proportions should be clearly cartoonlike just as in the reference: big eyes, simple smooth face, not a realistic person. She wears a vivid scarlet-red knitted scarf wrapped generously around her neck, with a few clean soft folds and two short hanging ends visible at the shoulders, over a simple dark round-neck top. The red scarf is a prominent second focal point and must remain visible in a small circular watch icon.
+Background: completely clean solid pure white #FFFFFF, full bleed into all four square corners. No black or blue or gray backdrop, no colored gradient, no halo or background circle, no shadow cast onto the background.
+Composition: single centered frontal head-and-shoulders portrait. Fit the character tastefully in the square with about 9 percent white space above her hair, the hair silhouette about 70 percent of canvas width, face and wrapped red scarf inside the central circular crop-safe region. Keep the whole head visible with generous side margins. Her eyes sit around the center of the canvas; the scarf fills the lower third. Let the shoulder tips end at the lower edge naturally. Flat frontal view, no device mockup, no icon grid, no pre-drawn rounded-square or circular boundary. The final image is the app icon itself, not a screenshot.
+Style and lighting: polished high-quality 3D animated character portrait, smooth soft matte skin, simplified silky hair sculpt, warm diffuse studio lighting and soft form shading. Favor the reference's clear simple cartoon features over photographic pores or individual wispy hairs. Crisp readable silhouette at 40 pixels.
+Constraints: preserve brown short hair, large expressive dark eyes, red scarf and pure white background. No mint-green clothing, no speech bubble, no waveform, no jewelry or headphones, no text, no watermarks, no social media UI, no logos, no hearts, no buttons, no border, no transparency.
